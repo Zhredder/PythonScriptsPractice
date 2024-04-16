@@ -9,11 +9,5 @@ def get_crypto_data():
     if response.status_code == 200:
         data = response.json()
         print(data)
+        return data
 
-
-def main():
-
-    get_crypto_data()
-
-if __name__ == "__main__":
-    main()
